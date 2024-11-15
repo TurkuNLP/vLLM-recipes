@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=llamaRun
-#SBATCH --account=project_462000642
+#SBATCH --account=*input your project here*
 #SBATCH --partition=small-g
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
