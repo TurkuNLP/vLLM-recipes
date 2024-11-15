@@ -32,6 +32,5 @@ def main():
     result = generate_text(llm, prompt)
     print("\nGenerated Text:\n")
     print(result)
-
-if __name__ == '__main__':
+#When using multiple GPUs, it is essential to structure your code within the if __name__ == "__main__": block to ensure proper parallelization and avoid issues with process spawningif __name__ == '__main__':
     main()
