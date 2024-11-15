@@ -1,0 +1,5 @@
+This is a basic inference setup for a single node inference on Lumi. 
+
+In runSlurm.sh you need to adjust the correct project name, as well as GPU's needed.
+
+In vLLM_inference.py you at least need to adjust cache directory to specify folder where you want the model to be downloaded. 
