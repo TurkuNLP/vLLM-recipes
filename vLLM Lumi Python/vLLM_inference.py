@@ -19,7 +19,7 @@ def main():
     prompt = "Once upon a time" #Adjust your prompt
     model_id = "nvidia/Llama-3.1-Nemotron-70B-Instruct-HF" #choose your model
     cache_dir = "/scratch/project_462000642/joonatan/shared_models" #choose your cache directory
-    tensor_parallel_size = 8  # Adjust based on available GPUs 
+    tensor_parallel_size = 8  # Adjust based on available GPUs / how many you have chosen in Slurm
 
     # Initialize the model with specified parameters
     llm = LLM(
